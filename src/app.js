@@ -1,3 +1,5 @@
+import debounce from 'debounce';
+
 const URL = "https://pixabay.com/api/";
 const API_KEY = "55978703-bb79675f7d797a559cd8adf58";
 
@@ -48,7 +50,7 @@ btnEl.addEventListener("click", () => {
 })
 
 
-inputEl.addEventListener("input", _.debounce((e) => {
+inputEl.addEventListener("input", debounce((e) => {
     search = e.target.value.trim();
 
     currentPage = 1;
