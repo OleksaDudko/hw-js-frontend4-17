@@ -1,0 +1,2 @@
+.container{outline:1px solid red;width:1200px;margin:0 auto}.input{border-radius:4px;width:400px;height:50px;margin:0 auto;padding-left:15px;display:block}.list{grid-template-columns:repeat(3,1fr);gap:30px;margin:50px 0;padding:0;list-style:none;display:grid}.btn{color:#fff;background-color:#4444c4;border:none;border-radius:8px;margin:0 auto;padding:10px 20px;font-size:20px;display:block}.images{width:100%;display:block}.disabled-btn{background-color:#4444c480}
+/*# sourceMappingURL=hw-js-frontend4-17.c8a6e8f7.css.map */
